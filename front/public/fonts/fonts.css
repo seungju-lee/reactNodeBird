@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "InkLipquid";    
+  src: url("/fonts/InkLipquidFonts.ttf") format("truetype");
+}
+
+
+@font-face {
+  font-family: 's-core_dream3_light';
+  src: url('/fonts/scdream3-webfont.woff2') format('woff2'),
+       url('/fonts/scdream3-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+

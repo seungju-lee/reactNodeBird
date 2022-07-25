@@ -1,0 +1,32 @@
+{
+    "plugins": [
+      "prettier"
+    ],
+    "extends": [
+      "airbnb",
+      "prettier"
+    ],
+    "parser": "babel-eslint",
+    "parserOptions": {
+      "ecmaVersion": 7,
+      "sourceType": "script",
+      "ecmaFeatures": {
+        "jsx": false
+      }
+    },
+    "env": {   
+      "browser": false,     
+      "node": true
+    },  
+    "ignorePatterns": [
+      "node_modules/"
+    ], 
+    "rules": {
+      "prettier/prettier": "error",
+      "no-console": "off",
+      "no-underscore-dangle": "off",
+      "object-curly-newline": "off",
+      "linebreak-style": "off",
+      "no-param-reassign": "off"
+    }
+  }
